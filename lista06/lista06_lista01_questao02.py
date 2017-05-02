@@ -14,9 +14,9 @@
 vetor = []
 cont = 0
 
-while cont < 10:
+while (cont < 10):
     number = float(input("Digite um número: "))
     vetor.append(number)
-    cont += 1
+    cont = cont + 1
 print ("A ordem inversa é",vetor[::-1])
 
